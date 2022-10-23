@@ -3,13 +3,13 @@
 #include <stdbool.h>
 #include <stdlib.h>
 #include <stdio.h>
+#include <assert.h>
 
 typedef struct node
 {
     int data;
     struct node* next;
 } node;
-
 
 typedef struct{
   node* head;
